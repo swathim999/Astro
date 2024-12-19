@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Compatibility Report</title>
+    <link rel="stylesheet" href="next.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Horoscope Compatibility Report</h1>
+        </header>
+        <!-- Section for Information about Both Individuals -->
+        <div class="compatibility">
+            <!-- Person 1 -->
+            <div class="person">
+                <h3>Person 1</h3>
+                <label for="name1">Name:</label>
+                <input type="text" id="name1" placeholder="Enter name">
+                <label for="dob1">Date of Birth:</label>
+                <input type="date" id="dob1">
+                <label for="birthplace1">Birth Place:</label>
+                <input type="text" id="birthplace1" placeholder="Enter birthplace">
+                <label for="zodiac1">Zodiac Sign:</label>
+                <select id="zodiac1">
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                </select>
+            </div>
+
+            <!-- Person 2 -->
+            <div class="person">
+                <h3>Person 2</h3>
+                <label for="name2">Name:</label>
+                <input type="text" id="name2" placeholder="Enter name">
+                <label for="dob2">Date of Birth:</label>
+                <input type="date" id="dob2">
+                <label for="birthplace2">Birth Place:</label>
+                <input type="text" id="birthplace2" placeholder="Enter birthplace">
+                <label for="zodiac2">Zodiac Sign:</label>
+                <select id="zodiac2">
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Cancer">Cancer</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Pisces">Pisces</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Compatibility Result Section -->
+        <div class="compatibility-result">
+            <button onclick="generatePDF()">Generate PDF</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script>
+        async function generateReport() {
+            // Get values from input fields
+            const name1 = document.getElementById('name1').value;
+            const zodiac1 = document.getElementById('zodiac1').value;
+
+            const name2 = document.getElementById('name2').value;
+            const zodiac2 = document.getElementById('zodiac2').value;
+
+            // Display compatibility message
+            let compatibilityMessage = `Analyzing compatibility between ${name1} (${zodiac1}) and ${name2} (${zodiac2}).`;
+
+            // Call Astrology API (Aztro API for Zodiac Compatibility)
+            const compatibilityResult = await getCompatibilityFromAPI(zodiac1, zodiac2);
+
+            // Display the result
+            document.getElementById('result').innerHTML = `
+                <h2>Compatibility Analysis</h2>
+                <p>${compatibilityMessage}</p>
+                <p>${compatibilityResult}</p>
+            `;
+        }
+
+        async function getCompatibilityFromAPI(zodiac1, zodiac2) {
+            // Construct the URL for API request (Aztro API for compatibility check)
+            const apiUrl = `https://api.horoscope-api.com/compatibility?sign1=${zodiac1}&sign2=${zodiac2}`;
+            try {
+                // Make the API request using fetch
+                const response = await fetch(apiUrl, {
+                    method: 'POST', // Aztro API requires a POST request
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    }
+                });
+
+                // Check if the response is successful
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                // Parse the JSON response
+                const data = await response.json();
+
+                // Log the entire response to debug
+                console.log('API Response:', data);
+
+                // Return the compatibility result from the API
+                return data.compatibility || "Compatibility data not available.";
+            } catch (error) {
+                console.error('Error fetching astrology data:', error);
+                return "Error fetching compatibility data.";
+            }
+        }
+
+        function generatePDF() {
+            // Create a new jsPDF instance
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            // Get the compatibility report text
+            const reportContent = document.getElementById('result').innerText;
+
+            // Add text to the PDF
+            doc.text(reportContent, 10, 10);
+
+            // Save the PDF
+            doc.save('compatibility_report.pdf');
+        }
+    </script>
+</body>
+</html>

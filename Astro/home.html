@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Compatibility Report</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="./index.html">Astrology</a></div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="#">Readings</a></li>
+                <li><a href="./horoscope.html">Horoscope</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="login page.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="compatibility">
+            <div class="person">
+                <h3>Details</h3>
+                <label for="name1">Name:</label>
+                <input type="text" id="name1" placeholder="Enter name"> <br><br>
+                <label for="dob1">Date of Birth:</label>
+                <input type="date" id="dob1"> <br><br>
+                <label for="birthplace1">Birth Place:</label>
+                <input type="text" id="birthplace1" placeholder="Enter birthplace">
+                <label for="sign">Select your sign:</label>
+                <select id="sign">
+                    <option value="Aries">Aries</option>
+                    <option value="2">Taurus</option>
+                    <option value="3">Gemini</option>
+                    <option value="4">Cancer</option>
+                    <option value="5">Leo</option>
+                    <option value="6">Virgo</option>
+                    <option value="7">Libra</option>
+                    <option value="8">Scorpio</option>
+                    <option value="9">Sagittarius</option>
+                    <option value="10">Capricorn</option>
+                    <option value="11">Aquarius</option>
+                    <option value="12">Pisces</option>
+                </select>
+            </div>
+
+            <div class="person">
+                <h2>Chat</h2>
+                <p class="coming-soon">Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="generate-section">
+            <button id="generateReportBtn">Get Horoscope</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script>
+        // Function to generate and download the PDF
+        document.getElementById('generateReportBtn').addEventListener('click', function() {
+            // Get input values
+            const name = document.getElementById('name1').value;
+            const dob = document.getElementById('dob1').value;
+            const birthplace = document.getElementById('birthplace1').value;
+            const sign = document.getElementById('sign').value;
+
+            if (name && dob && birthplace) {
+                const { jsPDF } = window.jspdf;
+                const doc = new jsPDF();
+
+                // Add content to the PDF
+                doc.setFontSize(16);
+                doc.text('Horoscope Report', 20, 20);
+                doc.text(`Name: ${name}`, 20, 30);
+                doc.text(`Date of Birth: ${dob}`, 20, 40);
+                doc.text(`Birth Place: ${birthplace}`, 20, 50);
+                doc.text(`Zodiac sign: ${sign}`,20,60);
+
+                
+                // Save the PDF with a custom name
+                doc.save('Horoscope-Report.pdf');
+            } else {
+                alert('Please fill in all the fields before generating the report.');
+            }
+        });
+
+        
+    </script>
+
+</body>
+</html>
