@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('./ho.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.668);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd700;
+    text-transform: uppercase;
+}
+
+header .logo a{
+    color: #ffd700;
+    text-decoration: none;
+}
+
+header nav {
+    margin-right: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 100;
+}
+
+header nav ul li {
+    margin: 0 40px;
+
+}
+
+header nav ul li a {
+    color: #f4f6f7;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+/* Main welcome section */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+main .welcome-section {
+    background: rgba(26, 17, 17, 0.755);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+main .welcome-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+main .welcome-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+main .welcome-section .cta-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #ffd700;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+main .welcome-section .cta-btn:hover {
+    background-color: #f4a300;
+    transform: scale(1.05);
+}
