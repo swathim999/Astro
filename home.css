@@ -1,0 +1,149 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: "gilory";
+    background-image: url(./bg.jpg);
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 89vh;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.person {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position:absolute;
+    left: 150px;
+}
+
+.person2 {
+    width: 25%;
+    height: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position:absolute;
+    right: 150px;
+}
+
+.person2 h3{
+    color: grey;
+    font-size:70px;
+}
+
+
+.hero h2 {
+    font-size: 30px;
+    color: #f5a623;
+    font-weight: bold;
+}
+
+.hero label {
+    display: block;
+    font-size: 16px;
+}
+
+.hero input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hero select{
+    width: 76%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background: #f9f9f9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hero input:focus, .hero select:focus {
+    outline: none;
+    border-color: #f5a623;
+    box-shadow: 0 0 5px rgba(245, 166, 35, 0.5);
+}
+
+.hero button {
+    background: #f5a623;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 50%;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    
+}
+
+.hero button:hover {
+    background: #ff7f00;
+    box-shadow: 0 5px 10px rgba(255, 127, 0, 0.5);
+}
