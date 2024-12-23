@@ -1,0 +1,383 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(16 10 72);
+    font-family: "gilory";
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#services h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+#services{
+    height: 90vh;
+    align-items: center;
+}
+.service-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #333;
+}
+
+#about {
+    background-color: #ffffff00;
+    border-radius: 8px;
+    margin: 40px;
+    height: 70vh;
+}
+
+#about h1{
+    text-align: center;
+    font-size:xx-large;
+    color: #f4f4f4;
+}
+
+#about p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-left: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content:space-between;
+    text-align: justify;
+}
+
+/* About Us image */
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    display: block;
+    border-radius: 8px;
+    margin: 0px 20px ;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.welcome-section {
+    background:white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #010a10;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.welcome-section .cta-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #e61212;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.welcome-section .cta-btn:hover {
+    background-color: #f4a300;
+    transform: scale(1.05);
+}
+
+
+#doshas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#doshas img{
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Doshas Section */
+#doshas {
+    padding: 20px;
+}
+
+#doshas h2 {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.doshas-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding: 10px 0;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+.do{
+    display: flex;
+    justify-content: center;
+}
+
+.do h1{
+    color: white;
+}
+.dosha {
+    flex: 0 0 300px; 
+    background: #ffffff00;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dosha:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 10px rgba(2, 2, 16, 0.15);
+    background-color: #010a10;
+}
+
+.dosha-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.dosha h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.dosha p {
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* Scrollbar Customization */
+.doshas-container::-webkit-scrollbar {
+    height: 10px; /* Adjust scrollbar height */
+}
+
+.doshas-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.doshas-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+#horoscope ul,
+#gemstones ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
+#horoscope ul li,
+#gemstones ul li {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* Service images */
+.service-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Dosha images */
+.dosha-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Horoscope images */
+.horoscope-img {
+    width: 48%;
+    height: auto;
+    margin: 5px 1%;
+    border-radius: 8px;
+}
+
+/* Gemstone images */
+.gemstone-img {
+    width: 22%;
+    height: auto;
+    margin: 5px 1%;
+    border-radius: 8px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+footer .footer-section {
+    margin-bottom: 20px;
+    
+}
+
+footer .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+footer ul li:hover {
+    color: #ffd700;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #aaa;
+}
