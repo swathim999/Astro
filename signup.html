@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="./index.html">TechSpira Astrology</a></div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="#horoscope">Horoscope</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <form id="signup-form" action="#" method="post">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required> <br><br>
+
+            <label for="phone">Phone No.</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required> <br><br>
+
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select> <br><br>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username" required> <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required> <br><br>
+
+            <button type="submit">Create Account</button>
+            <p>Have an account? <a href="./login.html">Login</a></p>
+            <div class="message" id="signup-message"></div>
+        </fieldset>
+    </form>
+    </div>
+    <script>
+        document.getElementById("signup-form").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const gender = document.getElementById("gender").value;
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Retrieve the existing users from localStorage
+            const users = JSON.parse(localStorage.getItem("users")) || [];
+
+            // Check if the username already exists
+            const userExists = users.some(user => user.username === username);
+
+            const messageBox = document.getElementById("signup-message");
+
+            if (userExists) {
+                messageBox.textContent = "Username already exists!";
+                messageBox.style.color = "red";
+            } else {
+                // Add the new user to the users array
+                users.push({ username, password });
+                // Save the updated users array back to localStorage
+                localStorage.setItem("users", JSON.stringify(users));
+                messageBox.textContent = "Signup successful!";
+                messageBox.style.color = "green";
+            }
+
+            // Example validation: check if all fields are filled
+            if (name && email && phone && gender && username && password) {
+                // Simulate form submission (you can replace this with an actual submission logic)
+                const messageDiv = document.getElementById("signup-message");
+                messageDiv.textContent = "Account created successfully!";
+                messageDiv.style.color = "green";
+                messageDiv.style.fontWeight = "bold";
+                // Optionally, clear form fields after successful submission
+                document.getElementById("signup-form").reset();
+                localStorage.setItem("username",username)
+                localStorage.setItem("password",password)
+            } else {
+                // Show an error message if any field is empty
+                const messageDiv = document.getElementById("signup-message");
+                messageDiv.textContent = "Please fill out all fields!";
+                messageDiv.style.color = "red";
+                messageDiv.style.fontWeight = "bold";
+            }
+        });
+    </script>
+</body>
+</html>
+
