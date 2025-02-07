@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  /* --bgimage: url(https://i.ibb.co/3d26bty/bg.jpg); */
+  --bg-color: #24243e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: greenyellow;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px 0px;
+}
+button:hover {
+  background-color: #555;
+  border-color: #646cff;
+}

@@ -1,0 +1,122 @@
+.horoscope-container {
+  max-width: 1000px;
+  margin: 2rem auto 2rem auto;
+  margin-bottom: 2rem;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.horoscope-layout {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
+.zodiac-sidebar {
+  width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+  overflow-y: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.zodiac-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.zodiac-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.zodiac-item:hover,
+.zodiac-item.active {
+  background-color: #e0e0e0;
+}
+
+.zodiac-item span {
+  margin-left: 10px;
+}
+
+.horoscope-details {
+  flex-grow: 1;
+  padding: 5rem;
+  overflow-y: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.sign-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sign-icon {
+  margin-right: 20px;
+}
+
+.sign-meta {
+  flex-grow: 1;
+}
+
+.daily-horoscope {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .horoscope-container {
+    padding: 0;
+  }
+
+  .horoscope-layout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .zodiac-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    height: auto;
+    max-height: 150px;
+    display: flex;
+    overflow-x: auto;
+    /* overflow-y: hidden; */
+  }
+
+  .zodiac-list {
+    flex-direction: row;
+  }
+
+  .zodiac-item {
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+    padding: 10px 5px;
+  }
+
+  .zodiac-item span {
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 0.8rem;
+  }
+
+  .horoscope-details {
+    height: auto;
+    padding: 20px;
+  }
+}
