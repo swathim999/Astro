@@ -1,0 +1,41 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_A4_3" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e04b92c0-5f80-42fc-9843-8f3952d93501">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="userName" class="java.lang.String"/>
+	<field name="dob" class="java.lang.String"/>
+	<field name="bop" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="54" splitType="Stretch">
+		<element kind="staticText" uuid="bf5d8d43-cc3b-4690-b2a6-0bbfcbc5dff7" x="0" y="24" width="560" height="30" fontSize="12.0" hTextAlign="Center">
+			<text><![CDATA[USER REPORT]]></text>
+		</element>
+	</title>
+	<pageHeader height="35" splitType="Stretch"/>
+	<columnHeader height="61" splitType="Stretch"/>
+	<detail>
+		<band height="232" splitType="Stretch">
+			<element kind="staticText" uuid="dd9ad12a-d627-4781-8e58-cd6240c920dc" x="30" y="30" width="100" height="30">
+				<text><![CDATA[userName]]></text>
+			</element>
+			<element kind="textField" uuid="85eb2c2b-f89d-4a75-9dd2-4b9dbc2363e1" x="160" y="30" width="100" height="30">
+				<expression><![CDATA[$F{userName}]]></expression>
+			</element>
+			<element kind="staticText" uuid="f15ab30b-2b5c-4cef-a7f1-185ea9039c5b" x="30" y="70" width="100" height="30">
+				<text><![CDATA[Dob]]></text>
+			</element>
+			<element kind="textField" uuid="5a5e0a2e-3a6e-4290-a8d3-b1b69d43c0a0" x="160" y="70" width="100" height="30">
+				<expression><![CDATA[$F{dob}]]></expression>
+			</element>
+			<element kind="staticText" uuid="5bcf6eef-2dee-475c-8404-09d7dbd177c9" x="30" y="108" width="100" height="30" fontSize="16.0" hTextAlign="Left">
+				<text><![CDATA[Bop]]></text>
+			</element>
+			<element kind="textField" uuid="135d66c8-6d1a-4ee6-a652-fd90e29635de" x="160" y="108" width="100" height="35">
+				<expression><![CDATA[$F{bop}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

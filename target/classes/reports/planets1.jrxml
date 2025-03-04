@@ -1,0 +1,80 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="planets1" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a5aa4edf-2958-473e-8c12-3f21e0518ae5">
+	<query language="sql"><![CDATA[]]></query>
+	<field name="year" class="java.lang.Integer"/>
+	<field name="month" class="java.lang.Integer"/>
+	<field name="date" class="java.lang.Integer"/>
+	<field name="hours" class="java.lang.Integer"/>
+	<field name="minutes" class="java.lang.Integer"/>
+	<field name="seconds" class="java.lang.Integer"/>
+	<field name="latitude" class="java.lang.Float"/>
+	<field name="longitude" class="java.lang.Float"/>
+	<field name="timezone" class="java.lang.Float"/>
+	<background splitType="Stretch"/>
+	<title height="79" splitType="Stretch">
+		<element kind="staticText" uuid="41a2aba8-d7aa-4f36-991d-a5c0c1349334" x="0" y="0" width="560" height="79" fontSize="29.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Planets - Rasi Chart]]></text>
+		</element>
+	</title>
+	<detail>
+		<band height="607" splitType="Stretch">
+			<element kind="staticText" uuid="5ca8837b-74c8-4419-a813-4139873b0934" x="30" y="30" width="100" height="30" forecolor="#062B07" fontSize="16.0" vTextAlign="Middle">
+				<text><![CDATA[year]]></text>
+			</element>
+			<element kind="staticText" uuid="d6e61036-3377-46a6-8e78-005406f65b99" x="30" y="80" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[month]]></text>
+			</element>
+			<element kind="staticText" uuid="4370a6e5-526a-4cf9-819c-9feb79493182" x="30" y="130" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[date]]></text>
+			</element>
+			<element kind="staticText" uuid="1e712ef8-9b78-4217-9d06-635dc09c8724" x="30" y="180" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[hours]]></text>
+			</element>
+			<element kind="staticText" uuid="9337c9e9-b3f3-41e9-a1ca-88f6c0292dd9" x="30" y="230" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[minutes]]></text>
+			</element>
+			<element kind="staticText" uuid="a0000156-55ce-4bb8-837d-3375dfa2fa85" x="30" y="330" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[latitude]]></text>
+			</element>
+			<element kind="staticText" uuid="9fbd8147-77da-470c-9d0b-bc0011445e7b" x="30" y="280" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[seconds]]></text>
+			</element>
+			<element kind="staticText" uuid="324994cf-7361-4eed-a63d-d3f75a9f9919" x="30" y="380" width="100" height="30" forecolor="#062B07" fontSize="16.0" vTextAlign="Middle">
+				<text><![CDATA[longitude]]></text>
+			</element>
+			<element kind="staticText" uuid="591071a9-04ff-43e4-938d-72a2ccc1ad99" x="30" y="430" width="100" height="30" forecolor="#062B07" fontSize="16.0" bold="false" vTextAlign="Middle">
+				<text><![CDATA[timezone]]></text>
+			</element>
+			<element kind="textField" uuid="2c90644e-3e2c-4425-ad92-cfb0b28774db" x="220" y="30" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{year}]]></expression>
+			</element>
+			<element kind="textField" uuid="ab1e5a35-89b5-4f82-8aab-477aa9839652" x="220" y="80" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{month}]]></expression>
+			</element>
+			<element kind="textField" uuid="50e2a9bd-1f98-42ba-9be2-742d0c86add7" x="220" y="130" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{date}]]></expression>
+			</element>
+			<element kind="textField" uuid="0490aba8-a081-46d2-b295-43ec7e023e2a" x="220" y="180" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{hours}]]></expression>
+			</element>
+			<element kind="textField" uuid="a6292367-470b-4b45-ac6b-e9cd6367b7eb" x="220" y="230" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{minutes}]]></expression>
+			</element>
+			<element kind="textField" uuid="ce949446-f87f-4625-8c3a-72906d06ecc0" x="220" y="280" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{seconds}]]></expression>
+			</element>
+			<element kind="textField" uuid="a42e7405-5adb-44c2-8fab-7ddff4fd32b6" x="220" y="330" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{latitude}]]></expression>
+			</element>
+			<element kind="textField" uuid="396cd020-5652-4011-b11a-6ab6c6dc4d53" x="220" y="380" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{longitude}]]></expression>
+			</element>
+			<element kind="textField" uuid="5c82736c-62ff-4eb6-ab0e-69d205bf41bf" x="220" y="430" width="100" height="30" forecolor="#3A9C09">
+				<expression><![CDATA[$F{timezone}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="45" splitType="Stretch"/>
+	<pageFooter height="54" splitType="Stretch"/>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

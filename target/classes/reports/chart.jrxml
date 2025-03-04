@@ -1,0 +1,103 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="chart" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="43fb7cbb-3f47-4dfc-bea0-42a9fd8d0838">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="var1" class="java.lang.String"/>
+	<field name="var2" class="java.lang.String"/>
+	<field name="var3" class="java.lang.String"/>
+	<field name="var4" class="java.lang.String"/>
+	<field name="var5" class="java.lang.String"/>
+	<field name="var6" class="java.lang.String"/>
+	<field name="var7" class="java.lang.String"/>
+	<field name="var8" class="java.lang.String"/>
+	<field name="var9" class="java.lang.String"/>
+	<field name="var10" class="java.lang.String"/>
+	<field name="var11" class="java.lang.String"/>
+	<field name="var12" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<element kind="rectangle" uuid="30d6cb92-157d-46f9-b36d-738e96cfded7" x="0" y="80" width="560" height="280"/>
+			<element kind="line" uuid="c5c52800-8aba-4107-ac89-671c454379dd" x="0" y="150" width="560" height="1"/>
+			<element kind="line" uuid="48fa3c89-d011-4db4-802a-38b2c2ed901f" x="0" y="290" width="560" height="1"/>
+			<element kind="line" uuid="eff3df08-f07e-4651-94af-b7c816776f53" x="280" y="290" width="1" height="70"/>
+			<element kind="line" uuid="85c57e5d-3699-4fc7-96c1-94be3fadd28f" x="280" y="80" width="1" height="70"/>
+			<element kind="line" uuid="f7dacabc-4c35-4f83-9807-47f2e19e25da" x="420" y="80" width="1" height="280"/>
+			<element kind="line" uuid="d8518564-e732-41e6-91cc-63cc32e9ea0b" x="140" y="80" width="1" height="280"/>
+			<element kind="line" uuid="1c20b59d-e81b-4715-8a92-00980b5fb1c0" x="420" y="220" width="140" height="1"/>
+			<element kind="line" uuid="af4e4f19-2414-405e-bec2-2e7cdff4e52b" x="0" y="220" width="140" height="1"/>
+			<element kind="staticText" uuid="e80ea517-3e3f-4c1c-933d-ed80f26217ce" x="250" y="120" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[1]]></text>
+			</element>
+			<element kind="staticText" uuid="76b9742c-7f56-4f5f-ac41-768b25ad3b70" x="390" y="121" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[2]]></text>
+			</element>
+			<element kind="staticText" uuid="ef29a2de-cce6-4426-921e-52ba4200557b" x="530" y="120" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[3]]></text>
+			</element>
+			<element kind="staticText" uuid="7333bebe-a850-46ca-a3f3-4ec606fd9783" x="530" y="190" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[4]]></text>
+			</element>
+			<element kind="staticText" uuid="6b067399-b4a9-4def-bab2-77f09963a066" x="530" y="261" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[5]]></text>
+			</element>
+			<element kind="staticText" uuid="caddd380-8146-43ec-855f-40bfdd789ebe" x="530" y="330" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[6]]></text>
+			</element>
+			<element kind="staticText" uuid="fb1fd950-090c-467c-a209-4d73da9e0448" x="390" y="330" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[7]]></text>
+			</element>
+			<element kind="staticText" uuid="74038070-6c51-4917-9907-7d42058e46a7" x="250" y="330" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[8]]></text>
+			</element>
+			<element kind="staticText" uuid="ba9c88b8-3b38-477d-b661-f6982095ae16" x="111" y="330" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[9]]></text>
+			</element>
+			<element kind="staticText" uuid="969d0ab8-4a98-426d-9261-6cbe84cea9db" x="111" y="260" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[10]]></text>
+			</element>
+			<element kind="staticText" uuid="fbec912f-fd6f-4eaa-a983-a831cd0fefeb" x="110" y="190" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[11]]></text>
+			</element>
+			<element kind="staticText" uuid="d44a43a4-e251-48a0-a39c-06c13bbb34c2" x="110" y="120" width="30" height="30" fontSize="19.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[12]]></text>
+			</element>
+			<element kind="textField" uuid="e87fe4bc-bc36-4728-994b-681713df4481" x="160" y="80" width="110" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var1}]]></expression>
+			</element>
+			<element kind="textField" uuid="740a3948-51bc-4ca1-8afd-304070ac87a3" x="290" y="80" width="119" height="30" fontSize="16.0" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$F{var2}]]></expression>
+			</element>
+			<element kind="textField" uuid="88001bde-a5fb-4e7c-974a-b201724da37c" x="430" y="80" width="104" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var3}]]></expression>
+			</element>
+			<element kind="textField" uuid="a938d902-ef82-414f-b5cb-8772fbf76e1d" x="440" y="150" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var4}]]></expression>
+			</element>
+			<element kind="textField" uuid="91c73472-6faf-4ef1-803d-c03b2e36076d" x="432" y="221" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var5}]]></expression>
+			</element>
+			<element kind="textField" uuid="cb6ea299-8b66-4093-a2b5-a33cd2a8d7bf" x="440" y="291" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var6}]]></expression>
+			</element>
+			<element kind="textField" uuid="b702b2fb-bdea-4948-8277-d2e903cff0ee" x="300" y="290" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var7}]]></expression>
+			</element>
+			<element kind="textField" uuid="0e890ce6-53ac-47f3-8410-10c1f12e4f75" x="160" y="290" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var8}]]></expression>
+			</element>
+			<element kind="textField" uuid="12e27954-2b92-401c-a8c0-068131fe9df2" x="20" y="290" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var9}]]></expression>
+			</element>
+			<element kind="textField" uuid="a7d35cb6-26cf-4a74-80ab-9fa1fecf24e9" x="20" y="221" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var10}]]></expression>
+			</element>
+			<element kind="textField" uuid="a8c73da7-77e1-429a-b1b9-d03f5d3c16d8" x="20" y="151" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var11}]]></expression>
+			</element>
+			<element kind="textField" uuid="15b251b2-7cfe-455e-80cd-ff19106c6ea0" x="20" y="80" width="100" height="30" fontSize="16.0" vTextAlign="Middle">
+				<expression><![CDATA[$F{var12}]]></expression>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

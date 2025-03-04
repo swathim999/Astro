@@ -1,0 +1,77 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="planetss" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="10507272-7c0b-4ade-87a2-e02b2fe320e6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="month" class="java.lang.Integer"/>
+	<field name="date" class="java.lang.Integer"/>
+	<field name="hours" class="java.lang.Integer"/>
+	<field name="minutes" class="java.lang.Integer"/>
+	<field name="seconds" class="java.lang.Integer"/>
+	<field name="latitude" class="java.lang.Float"/>
+	<field name="longitude" class="java.lang.Float"/>
+	<field name="timezone" class="java.lang.Float"/>
+	<field name="year" class="java.lang.Integer"/>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<element kind="rectangle" uuid="36bdefe2-31bf-4983-9f78-fc2d03fde1b0" mode="Opaque" x="0" y="0" width="560" height="790" backcolor="#C28AD4"/>
+			<element kind="staticText" uuid="454ddbf1-764d-44a8-a7a9-6f41b2f6dac8" x="0" y="0" width="560" height="79" fontName="Algerian" fontSize="29.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[Planets - Rasi Chart]]></text>
+			</element>
+			<element kind="staticText" uuid="fdc0d7d3-6f52-44a8-b84c-b2a51222b28f" x="110" y="170" width="130" height="40" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[month]]></text>
+			</element>
+			<element kind="staticText" uuid="c715a7b0-4fa0-4a98-a5e9-f02a669b7ba3" x="110" y="240" width="120" height="40" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<text><![CDATA[date]]></text>
+			</element>
+			<element kind="staticText" uuid="6252cd1c-4004-4369-9740-70bc88be67d1" x="110" y="320" width="130" height="40" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<text><![CDATA[hours]]></text>
+			</element>
+			<element kind="staticText" uuid="9a1afed8-96e7-4630-a425-d31df06d5870" x="110" y="400" width="110" height="30" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[minutes]]></text>
+			</element>
+			<element kind="staticText" uuid="a0ab09d6-d296-48fd-a1de-8883403c7e27" x="110" y="480" width="100" height="30" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[seconds]]></text>
+			</element>
+			<element kind="staticText" uuid="5c3d33c2-c511-496e-8485-21ff00d485f1" x="110" y="550" width="130" height="40" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[latitude]]></text>
+			</element>
+			<element kind="staticText" uuid="d934e0fa-981c-4085-b105-0efbf7b1d5c2" x="110" y="625" width="110" height="30" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[longitude]]></text>
+			</element>
+			<element kind="staticText" uuid="82e72b84-af69-4a86-a88d-a6ec7a75cc47" x="110" y="700" width="125" height="40" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[timezone]]></text>
+			</element>
+			<element kind="textField" uuid="e2b54cb8-a225-4530-a642-52fdc7b28a49" x="330" y="170" width="140" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{month}]]></expression>
+			</element>
+			<element kind="textField" uuid="233c5bc1-e02b-49d9-91b9-664d5f0d3d53" x="330" y="240" width="140" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{date}]]></expression>
+			</element>
+			<element kind="textField" uuid="200a653b-95b0-498e-8afe-0a179f9a3652" x="330" y="310" width="140" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{hours}]]></expression>
+			</element>
+			<element kind="textField" uuid="c7a3f82f-d957-4c8a-9765-f0008e292b56" x="330" y="390" width="160" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{minutes}]]></expression>
+			</element>
+			<element kind="textField" uuid="0712b629-eb86-4c3a-9c98-1315534a0961" x="330" y="470" width="150" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{seconds}]]></expression>
+			</element>
+			<element kind="textField" uuid="6e1ef619-b36c-4c08-beda-890238df5698" x="330" y="540" width="150" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{latitude}]]></expression>
+			</element>
+			<element kind="textField" uuid="4bcbc437-004d-408e-809e-cc186baeab7f" x="330" y="620" width="180" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{longitude}]]></expression>
+			</element>
+			<element kind="textField" uuid="faaeae83-f4b2-455b-8c22-34e05e18d7a1" x="330" y="700" width="190" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<expression><![CDATA[$F{timezone}]]></expression>
+			</element>
+			<element kind="staticText" uuid="b18636d0-2065-4ea9-ae14-e7a0b5fed203" x="110" y="100" width="130" height="40" fontName="Cambria Math" fontSize="25.0" bold="true">
+				<text><![CDATA[year]]></text>
+			</element>
+			<element kind="textField" uuid="f73ff9a9-92b4-4807-91e0-0ffb22f8015b" x="330" y="100" width="140" height="40" forecolor="#210A4D" fontName="Cambria Math" fontSize="25.0" bold="true" vTextAlign="Middle">
+				<expression><![CDATA[$F{year}]]></expression>
+			</element>
+		</band>
+	</detail>
+</jasperReport>
