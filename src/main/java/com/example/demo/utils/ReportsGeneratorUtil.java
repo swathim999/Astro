@@ -16,6 +16,7 @@ public class ReportsGeneratorUtil {
 
         log.info("Generating report");
         JasperReport jasperReport = JasperCompileManager.compileReport(new FileInputStream(jrxmlPath));
+
         // Create JRBeanCollectionDataSource
         JRBeanCollectionDataSource dataSource = new JRBeanCollectionDataSource(dataList);
 

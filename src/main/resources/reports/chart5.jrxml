@@ -1,0 +1,70 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="chart4" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54ca13ec-6494-4e40-ad4e-56f133af9434">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="horaone" class="java.lang.String"/>
+	<field name="horatwo" class="java.lang.String"/>
+	<field name="horathree" class="java.lang.String"/>
+	<field name="horafour" class="java.lang.String"/>
+	<field name="horafive" class="java.lang.String"/>
+	<field name="horasix" class="java.lang.String"/>
+	<field name="horaseven" class="java.lang.String"/>
+	<field name="horaeight" class="java.lang.String"/>
+	<field name="horanine" class="java.lang.String"/>
+	<field name="horaten" class="java.lang.String"/>
+	<field name="horaeleven" class="java.lang.String"/>
+	<field name="horatwelve" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<element kind="rectangle" uuid="a4baabba-3685-4fa7-aecc-2a651e9f55a2" mode="Opaque" x="80" y="80" width="400" height="400" backcolor="#FAE29B"/>
+			<element kind="line" uuid="39d707be-2f6d-4284-8695-d5eac7a91edd" x="80" y="380" width="400" height="1"/>
+			<element kind="line" uuid="95e995fc-2223-4858-acda-3387ebba6b7b" x="80" y="180" width="400" height="1"/>
+			<element kind="line" uuid="ae679a07-370d-46af-bbfc-3783410c87ae" x="380" y="80" width="1" height="400"/>
+			<element kind="line" uuid="3b8a2c8d-e842-4c37-b86f-c3dfe083c4b1" x="180" y="80" width="1" height="400"/>
+			<element kind="line" uuid="e58886fe-8b4a-41db-90cd-0836c26e98d5" x="280" y="80" width="1" height="100"/>
+			<element kind="line" uuid="a35ce7e0-7ebf-4684-a965-5d260e242d10" x="380" y="280" width="100" height="1"/>
+			<element kind="line" uuid="02c553d5-2ab8-4d81-a99f-026c463d0465" x="80" y="280" width="100" height="1"/>
+			<element kind="line" uuid="773da09c-90d2-41a2-b814-5432634e14c2" x="281" y="380" width="1" height="100"/>
+			<element kind="staticText" uuid="4196665a-ffde-46db-8d0e-91e539f81151" x="181" y="180" width="200" height="198" fontSize="25.0" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[Hora[D2]]]></text>
+			</element>
+			<element kind="textField" uuid="041378bf-c51a-45b8-81ab-d0896c8f80db" x="180" y="80" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horaone}]]></expression>
+			</element>
+			<element kind="textField" uuid="ac920dfb-9eed-487f-9f55-9de9ce10e98e" x="280" y="80" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horatwo}]]></expression>
+			</element>
+			<element kind="textField" uuid="ee524768-ffeb-47e1-8ad5-5161ea010a87" x="380" y="80" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horathree}]]></expression>
+			</element>
+			<element kind="textField" uuid="702046dd-5ce4-48eb-b2e7-2de7f1939241" x="380" y="180" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horafour}]]></expression>
+			</element>
+			<element kind="textField" uuid="6afddd61-c33d-44e6-93cb-044e69969bfa" x="380" y="281" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horafive}]]></expression>
+			</element>
+			<element kind="textField" uuid="40ba5659-e88e-4c4f-af71-b1526626ee67" x="380" y="381" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horasix}]]></expression>
+			</element>
+			<element kind="textField" uuid="676e1901-31b6-4dfb-aae7-a5856d75172e" x="280" y="381" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horaseven}]]></expression>
+			</element>
+			<element kind="textField" uuid="fe724bab-8bba-48b6-980c-9d498f8cf686" x="180" y="380" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horaeight}]]></expression>
+			</element>
+			<element kind="textField" uuid="199c6b05-78cf-4865-93aa-e324bd22d359" x="80" y="380" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horanine}]]></expression>
+			</element>
+			<element kind="textField" uuid="62066790-1419-4fae-ab95-cae728238e35" x="80" y="281" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horaten}]]></expression>
+			</element>
+			<element kind="textField" uuid="ba93c471-8806-4592-83b9-166741fee67b" x="80" y="180" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horaeleven}]]></expression>
+			</element>
+			<element kind="textField" uuid="bb89b4c7-6e87-413b-a834-d433b9d39479" x="80" y="80" width="100" height="100" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$F{horatwelve}]]></expression>
+			</element>
+		</band>
+	</detail>
+</jasperReport>

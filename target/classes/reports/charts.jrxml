@@ -1,0 +1,614 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="chart2_14" language="java" columnCount="1" pageWidth="595" pageHeight="982" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f3bc5422-abab-4780-9dcf-a23033c02057">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="drekkanaone" class="java.lang.String"/>
+	<field name="drekkanatwo" class="java.lang.String"/>
+	<field name="drekkanathree" class="java.lang.String"/>
+	<field name="drekkanafour" class="java.lang.String"/>
+	<field name="drekkanafive" class="java.lang.String"/>
+	<field name="drekkanasix" class="java.lang.String"/>
+	<field name="drekkanaseven" class="java.lang.String"/>
+	<field name="drekkanaeight" class="java.lang.String"/>
+	<field name="drekkananine" class="java.lang.String"/>
+	<field name="drekkanaten" class="java.lang.String"/>
+	<field name="drekkanaeleven" class="java.lang.String"/>
+	<field name="drekkanatwelve" class="java.lang.String"/>
+	<field name="chathurthamsone" class="java.lang.String"/>
+	<field name="chathurthamstwo" class="java.lang.String"/>
+	<field name="chathurthamsthree" class="java.lang.String"/>
+	<field name="chathurthamsfour" class="java.lang.String"/>
+	<field name="chathurthamsfive" class="java.lang.String"/>
+	<field name="chathurthamssix" class="java.lang.String"/>
+	<field name="chathurthamsseven" class="java.lang.String"/>
+	<field name="chathurthamseight" class="java.lang.String"/>
+	<field name="chathurthamsnine" class="java.lang.String"/>
+	<field name="chathurthamsten" class="java.lang.String"/>
+	<field name="chathurthamseleven" class="java.lang.String"/>
+	<field name="chathurthamstwelve" class="java.lang.String"/>
+	<field name="horaone" class="java.lang.String"/>
+	<field name="horatwo" class="java.lang.String"/>
+	<field name="horathree" class="java.lang.String"/>
+	<field name="horafour" class="java.lang.String"/>
+	<field name="horafive" class="java.lang.String"/>
+	<field name="horasix" class="java.lang.String"/>
+	<field name="horaseven" class="java.lang.String"/>
+	<field name="horaeight" class="java.lang.String"/>
+	<field name="horanine" class="java.lang.String"/>
+	<field name="horaten" class="java.lang.String"/>
+	<field name="horaeleven" class="java.lang.String"/>
+	<field name="horatwelve" class="java.lang.String"/>
+	<field name="rasione" class="java.lang.String"/>
+	<field name="rasitwo" class="java.lang.String"/>
+	<field name="rasithree" class="java.lang.String"/>
+	<field name="rasifour" class="java.lang.String"/>
+	<field name="rasifive" class="java.lang.String"/>
+	<field name="rasisix" class="java.lang.String"/>
+	<field name="rasiseven" class="java.lang.String"/>
+	<field name="rasieight" class="java.lang.String"/>
+	<field name="rasinine" class="java.lang.String"/>
+	<field name="rasiten" class="java.lang.String"/>
+	<field name="rasieleven" class="java.lang.String"/>
+	<field name="rasitwelve" class="java.lang.String"/>
+	<field name="saptamsaone" class="java.lang.String"/>
+	<field name="saptamsatwo" class="java.lang.String"/>
+	<field name="saptamsathree" class="java.lang.String"/>
+	<field name="saptamsafour" class="java.lang.String"/>
+	<field name="saptamsafive" class="java.lang.String"/>
+	<field name="saptamsasix" class="java.lang.String"/>
+	<field name="saptamsaseven" class="java.lang.String"/>
+	<field name="saptamsaeight" class="java.lang.String"/>
+	<field name="saptamsanine" class="java.lang.String"/>
+	<field name="saptamsaten" class="java.lang.String"/>
+	<field name="saptamsaeleven" class="java.lang.String"/>
+	<field name="saptamsatwelve" class="java.lang.String"/>
+	<field name="navamsaone" class="java.lang.String"/>
+	<field name="navamsatwo" class="java.lang.String"/>
+	<field name="navamsathree" class="java.lang.String"/>
+	<field name="navamsafour" class="java.lang.String"/>
+	<field name="navamsafive" class="java.lang.String"/>
+	<field name="navamsasix" class="java.lang.String"/>
+	<field name="navamsaseven" class="java.lang.String"/>
+	<field name="navamsaeight" class="java.lang.String"/>
+	<field name="navamsanine" class="java.lang.String"/>
+	<field name="navamsaten" class="java.lang.String"/>
+	<field name="navamsaeleven" class="java.lang.String"/>
+	<field name="navamsatwelve" class="java.lang.String"/>
+	<field name="dwadasamsaone" class="java.lang.String"/>
+	<field name="dwadasamsatwo" class="java.lang.String"/>
+	<field name="dwadasamsathree" class="java.lang.String"/>
+	<field name="dwadasamsafour" class="java.lang.String"/>
+	<field name="dwadasamsafive" class="java.lang.String"/>
+	<field name="dwadasamsasix" class="java.lang.String"/>
+	<field name="dwadasamsaseven" class="java.lang.String"/>
+	<field name="dwadasamsaeight" class="java.lang.String"/>
+	<field name="dwadasamsanine" class="java.lang.String"/>
+	<field name="dwadasamsaten" class="java.lang.String"/>
+	<field name="dwadasamsaeleven" class="java.lang.String"/>
+	<field name="dwadasamsatwelve" class="java.lang.String"/>
+	<field name="shadasamsaone" class="java.lang.String"/>
+	<field name="shadasamsatwo" class="java.lang.String"/>
+	<field name="shadasamsathree" class="java.lang.String"/>
+	<field name="shadasamsafour" class="java.lang.String"/>
+	<field name="shadasamsafive" class="java.lang.String"/>
+	<field name="shadasamsasix" class="java.lang.String"/>
+	<field name="shadasamsaseven" class="java.lang.String"/>
+	<field name="shadasamsaeight" class="java.lang.String"/>
+	<field name="shadasamsanine" class="java.lang.String"/>
+	<field name="shadasamsaten" class="java.lang.String"/>
+	<field name="shadasamsaeleven" class="java.lang.String"/>
+	<field name="shadasamsatwelve" class="java.lang.String"/>
+	<field name="vimsamsaone" class="java.lang.String"/>
+	<field name="vimsamsatwo" class="java.lang.String"/>
+	<field name="vimsamsathree" class="java.lang.String"/>
+	<field name="vimsamsafour" class="java.lang.String"/>
+	<field name="vimsamsafive" class="java.lang.String"/>
+	<field name="vimsamsasix" class="java.lang.String"/>
+	<field name="vimsamsaseven" class="java.lang.String"/>
+	<field name="vimsamsaeight" class="java.lang.String"/>
+	<field name="vimsamsanine" class="java.lang.String"/>
+	<field name="vimsamsaten" class="java.lang.String"/>
+	<field name="vimsamsaeleven" class="java.lang.String"/>
+	<field name="vimsamsatwelve" class="java.lang.String"/>
+	<field name="dasamsaone" class="java.lang.String"/>
+	<field name="dasamsatwo" class="java.lang.String"/>
+	<field name="dasamsathree" class="java.lang.String"/>
+	<field name="dasamsafour" class="java.lang.String"/>
+	<field name="dasamsafive" class="java.lang.String"/>
+	<field name="dasamsasix" class="java.lang.String"/>
+	<field name="dasamsaseven" class="java.lang.String"/>
+	<field name="dasamsaeight" class="java.lang.String"/>
+	<field name="dasamsanine" class="java.lang.String"/>
+	<field name="dasamsaten" class="java.lang.String"/>
+	<field name="dasamsaeleven" class="java.lang.String"/>
+	<field name="dasamsatwelve" class="java.lang.String"/>
+	<field name="chathurvimsamsaone" class="java.lang.String"/>
+	<field name="chathurvimsamsatwo" class="java.lang.String"/>
+	<field name="chathurvimsamsathree" class="java.lang.String"/>
+	<field name="chathurvimsamsafour" class="java.lang.String"/>
+	<field name="chathurvimsamsafive" class="java.lang.String"/>
+	<field name="chathurvimsamsasix" class="java.lang.String"/>
+	<field name="chathurvimsamsaseven" class="java.lang.String"/>
+	<field name="chathurvimsamsaeight" class="java.lang.String"/>
+	<field name="chathurvimsamsanine" class="java.lang.String"/>
+	<field name="chathurvimsamsaten" class="java.lang.String"/>
+	<field name="chathurvimsamsaeleven" class="java.lang.String"/>
+	<field name="chathurvimsamsatwelve" class="java.lang.String"/>
+	<field name="bhamsaone" class="java.lang.String"/>
+	<field name="bhamsatwo" class="java.lang.String"/>
+	<field name="bhamsathree" class="java.lang.String"/>
+	<field name="bhamsafour" class="java.lang.String"/>
+	<field name="bhamsafive" class="java.lang.String"/>
+	<field name="bhamsasix" class="java.lang.String"/>
+	<field name="bhamsaseven" class="java.lang.String"/>
+	<field name="bhamsaeight" class="java.lang.String"/>
+	<field name="bhamsanine" class="java.lang.String"/>
+	<field name="bhamsaten" class="java.lang.String"/>
+	<field name="bhamsaeleven" class="java.lang.String"/>
+	<field name="bhamsatwelve" class="java.lang.String"/>
+	<field name="trimsamsaone" class="java.lang.String"/>
+	<field name="trimsamsatwo" class="java.lang.String"/>
+	<field name="trimsamsathree" class="java.lang.String"/>
+	<field name="trimsamsafour" class="java.lang.String"/>
+	<field name="trimsamsafive" class="java.lang.String"/>
+	<field name="trimsamsasix" class="java.lang.String"/>
+	<field name="trimsamsaseven" class="java.lang.String"/>
+	<field name="trimsamsaeight" class="java.lang.String"/>
+	<field name="trimsamsanine" class="java.lang.String"/>
+	<field name="trimsamsaten" class="java.lang.String"/>
+	<field name="trimsamsaeleven" class="java.lang.String"/>
+	<field name="trimsamsatwelve" class="java.lang.String"/>
+	<field name="khavedamsaone" class="java.lang.String"/>
+	<field name="khavedamsatwo" class="java.lang.String"/>
+	<field name="khavedamsathree" class="java.lang.String"/>
+	<field name="khavedamsafour" class="java.lang.String"/>
+	<field name="khavedamsafive" class="java.lang.String"/>
+	<field name="khavedamsasix" class="java.lang.String"/>
+	<field name="khavedamsaseven" class="java.lang.String"/>
+	<field name="khavedamsaeight" class="java.lang.String"/>
+	<field name="khavedamsanine" class="java.lang.String"/>
+	<field name="khavedamsaten" class="java.lang.String"/>
+	<field name="khavedamsaeleven" class="java.lang.String"/>
+	<field name="khavedamsatwelve" class="java.lang.String"/>
+	<field name="akshavedamsaone" class="java.lang.String"/>
+	<field name="akshavedamsatwo" class="java.lang.String"/>
+	<field name="akshavedamsathree" class="java.lang.String"/>
+	<field name="akshavedamsafour" class="java.lang.String"/>
+	<field name="akshavedamsafive" class="java.lang.String"/>
+	<field name="akshavedamsasix" class="java.lang.String"/>
+	<field name="akshavedamsaseven" class="java.lang.String"/>
+	<field name="akshavedamsaeight" class="java.lang.String"/>
+	<field name="akshavedamsanine" class="java.lang.String"/>
+	<field name="akshavedamsaten" class="java.lang.String"/>
+	<field name="akshavedamsaeleven" class="java.lang.String"/>
+	<field name="akshavedamsatwelve" class="java.lang.String"/>
+	<field name="shashtiamsaone" class="java.lang.String"/>
+	<field name="shashtiamsatwo" class="java.lang.String"/>
+	<field name="shashtiamsathree" class="java.lang.String"/>
+	<field name="shashtiamsafour" class="java.lang.String"/>
+	<field name="shashtiamsafive" class="java.lang.String"/>
+	<field name="shashtiamsasix" class="java.lang.String"/>
+	<field name="shashtiamsaseven" class="java.lang.String"/>
+	<field name="shashtiamsaeight" class="java.lang.String"/>
+	<field name="shashtiamsanine" class="java.lang.String"/>
+	<field name="shashtiamsaten" class="java.lang.String"/>
+	<field name="shashtiamsaeleven" class="java.lang.String"/>
+	<field name="shashtiamsatwelve" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="942" splitType="Stretch">
+		<element kind="rectangle" uuid="afe2d8b1-c371-4e87-9826-739a37e502f9" mode="Opaque" x="0" y="20" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="ede4cdb8-ca82-4149-af57-b5155df50ae2" mode="Opaque" x="290" y="20" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="line" uuid="6ead52e1-c5f2-40b5-93c2-59c49d61404f" x="290" y="80" width="270" height="1"/>
+		<element kind="line" uuid="d08db79d-4779-4ac2-b0a7-4e940b6488f6" x="290" y="200" width="270" height="1"/>
+		<element kind="line" uuid="6da0bb21-a6df-4777-bbfa-5c60f6eee338" x="490" y="20" width="1" height="240"/>
+		<element kind="line" uuid="c94bcd4a-df5d-415c-b436-905705b8765f" x="360" y="20" width="1" height="240"/>
+		<element kind="line" uuid="e9e655fa-9fdd-48dd-82a6-397fd07977c5" x="425" y="200" width="1" height="58"/>
+		<element kind="line" uuid="2eb00c10-584a-45de-9c5d-f4fd5cd5b36c" x="425" y="20" width="1" height="60"/>
+		<element kind="line" uuid="8b26b0f4-6019-424c-815c-060df290930f" x="491" y="140" width="68" height="1"/>
+		<element kind="line" uuid="c00cba73-aa8e-444e-8b0d-8a5e0ad66ade" x="290" y="140" width="70" height="1"/>
+		<element kind="line" uuid="1f090504-21b2-46a6-9966-06f7e9b2ceed" x="200" y="20" width="1" height="240"/>
+		<element kind="line" uuid="5aaaf782-18bd-4f60-8bce-2682696158ad" x="70" y="20" width="1" height="240"/>
+		<element kind="line" uuid="2c2b9989-2f26-43d5-8656-970e39901f26" x="0" y="201" width="270" height="1"/>
+		<element kind="line" uuid="5bdd3118-6d16-4c90-b72f-741da71abc1c" x="0" y="80" width="270" height="1"/>
+		<element kind="line" uuid="01c2c39c-1a5d-4847-be7e-6a4827ba0563" x="200" y="140" width="70" height="1"/>
+		<element kind="line" uuid="9170dc6d-f40a-441c-b78e-474d195a0e01" x="0" y="140" width="70" height="1"/>
+		<element kind="line" uuid="8d94403c-b2c3-415c-ad26-bfd4ac2e932c" x="135" y="20" width="1" height="60"/>
+		<element kind="line" uuid="3b5853bc-98c4-49f9-90d0-e6204caeb380" x="135" y="202" width="1" height="57"/>
+		<element kind="rectangle" uuid="c391ceeb-3a30-4e76-a036-0dde078e9271" mode="Opaque" x="0" y="290" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="b9fe5084-c8b5-4718-a707-045aa4c61a1a" mode="Opaque" x="290" y="290" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="line" uuid="bf920fbd-4d72-420a-b490-9d0d07b224a6" x="70" y="290" width="1" height="240"/>
+		<element kind="line" uuid="fd5a468a-2ee0-4407-8cbf-db119ef6e719" x="200" y="290" width="1" height="240"/>
+		<element kind="line" uuid="c9a4ddd2-e460-4425-b2e0-ee67a517e48c" x="360" y="290" width="1" height="240"/>
+		<element kind="line" uuid="8289609e-b417-437f-a581-7a790bd775bd" x="491" y="290" width="1" height="240"/>
+		<element kind="line" uuid="212bef3c-c0ae-42d1-b06c-d28abec4dfd6" x="290" y="350" width="270" height="1"/>
+		<element kind="line" uuid="3784600c-dd62-4fc5-ab66-0ea127a4a223" x="290" y="470" width="270" height="1"/>
+		<element kind="line" uuid="708686ed-ec75-4af2-9143-9e4c9c4be17c" x="0" y="350" width="270" height="1"/>
+		<element kind="line" uuid="91f8f52c-b13c-4629-89e7-b82768f17c6a" x="0" y="470" width="270" height="1"/>
+		<element kind="line" uuid="15a35c76-7a01-49ed-8803-ba590eea865d" x="425" y="290" width="1" height="60"/>
+		<element kind="line" uuid="d379507d-ae0e-41e6-8d40-7c0bed601032" x="425" y="470" width="1" height="60"/>
+		<element kind="line" uuid="826578e5-cedb-4e76-bacc-626bd4487498" x="490" y="410" width="68" height="1"/>
+		<element kind="line" uuid="aa2d9176-ce19-4c18-b8a9-b94bce3631c5" x="290" y="410" width="70" height="1"/>
+		<element kind="line" uuid="95866f49-9466-4089-9a1f-4a3bb70d16ce" x="135" y="290" width="1" height="60"/>
+		<element kind="line" uuid="386cb9c6-f3e3-494f-b14e-cc8a26b61e62" x="200" y="411" width="70" height="1"/>
+		<element kind="line" uuid="3dc0ba2b-7650-4d57-bb1d-779c713a2344" x="135" y="471" width="1" height="58"/>
+		<element kind="line" uuid="5bfe54a2-873c-41e7-ae59-780e31b46e8f" x="0" y="410" width="70" height="1"/>
+		<element kind="staticText" uuid="c54bac5d-bbf4-457f-9039-8a54eff25bd1" x="85" y="125" width="100" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Rasi[D1]]]></text>
+		</element>
+		<element kind="staticText" uuid="f7d8b18f-a60c-49e4-bc9e-0f65ca819a91" x="375" y="125" width="100" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Hora[D2]]]></text>
+		</element>
+		<element kind="staticText" uuid="d3bad623-9bab-49af-9207-73d7455979f2" x="71" y="395" width="129" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Drekkana[D3]]]></text>
+		</element>
+		<element kind="staticText" uuid="bf3e31aa-e652-48c4-8a22-42a80a8e7a0f" x="360" y="390" width="132" height="35" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Chathurthamsa]]></text>
+		</element>
+		<element kind="staticText" uuid="7a6c22cf-fca9-44af-8556-00565fc1d374" x="380" y="425" width="100" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[[D4]]]></text>
+		</element>
+		<element kind="rectangle" uuid="15563f54-241c-4f87-88a7-7d16df3fa08f" mode="Opaque" x="0" y="560" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="7f41e380-dd7d-4d6a-9e69-c55dfc80f307" mode="Opaque" x="290" y="560" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="line" uuid="aa83d8a8-652b-4e02-bcdd-58afc622893b" x="360" y="560" width="1" height="240"/>
+		<element kind="line" uuid="4b5c79aa-726a-41ad-9e60-0ce3f51dfe6c" x="491" y="560" width="1" height="240"/>
+		<element kind="line" uuid="575fe807-93a3-4eac-832e-f9ee851570e8" x="70" y="560" width="1" height="240"/>
+		<element kind="line" uuid="c1b683af-418d-49b6-8cf3-43c3615dae92" x="201" y="560" width="1" height="240"/>
+		<element kind="line" uuid="f7f8fe52-6ed8-4fe0-b625-212905ea14eb" x="290" y="620" width="268" height="1"/>
+		<element kind="line" uuid="754ffd8d-e4b1-4a33-b989-17cdb8b5292d" x="290" y="739" width="269" height="1"/>
+		<element kind="line" uuid="5e3c1f17-696b-4766-8148-85052d85eaf9" x="1" y="620" width="269" height="1"/>
+		<element kind="line" uuid="0cb621dc-1b9d-4ad9-a6a8-eb595b2c5695" x="1" y="740" width="268" height="1"/>
+		<element kind="line" uuid="61c72fb5-ad60-4146-bd39-bd30e0e2cabf" x="426" y="560" width="1" height="60"/>
+		<element kind="line" uuid="b85d0869-393c-4617-87a7-1d547a7a42b4" x="491" y="680" width="68" height="1"/>
+		<element kind="line" uuid="7ff8aff3-e564-4ff9-9135-57ed631f65f0" x="290" y="680" width="71" height="1"/>
+		<element kind="line" uuid="cc080e9a-2270-48b4-a41e-f27fae9c2dab" x="424" y="740" width="1" height="60"/>
+		<element kind="line" uuid="e31321e1-dc25-4d51-aa53-47d4c963713d" x="133" y="560" width="1" height="60"/>
+		<element kind="line" uuid="aadcd4c9-4651-44dc-8208-a3b3fff1193f" x="200" y="681" width="68" height="1"/>
+		<element kind="line" uuid="d33ab6cc-5f78-433f-8546-a0db28869a9e" x="133" y="741" width="1" height="59"/>
+		<element kind="line" uuid="049c3f80-3c02-4acf-9335-c0d77183f4d0" x="0" y="680" width="71" height="1"/>
+		<element kind="staticText" uuid="cd5f1a1a-0599-472e-b551-176d626bdd64" x="70" y="666" width="129" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Saptamsa[D7]]]></text>
+		</element>
+		<element kind="staticText" uuid="015ac638-50d2-4139-b4c5-ddf0375a671b" x="361" y="666" width="129" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Navamsa[D9]]]></text>
+		</element>
+		<element kind="textField" uuid="5ec45e32-f411-4dfb-94ba-5a087c734a85" x="73" y="289" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="38656079-9aba-4e45-ab2d-0065202598b0" x="137" y="289" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a55560d9-4ac4-452f-bc96-ab73994c19b1" x="205" y="290" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="3dfc99af-aaf3-4b5a-8787-860df6d28a7b" x="203" y="352" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="4078f4b2-82ac-41dd-857d-303d42c2d12b" x="204" y="410" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="52776fd0-6aaf-44fa-85e5-69414042a150" x="203" y="470" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e34c34b6-9339-4234-9de5-81d8bf0c5079" x="136" y="470" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="7881e86b-9bb5-410e-b169-782609e5d0c7" x="72" y="470" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="3fa2afd1-7887-4cd5-889c-6cc17690c937" x="3" y="470" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9c8bbade-7340-4f74-896e-ad099803ab2c" x="3" y="410" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="17ec0a6c-1264-4e8f-9ae1-e02eea3bb3d7" x="0" y="350" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9475998a-ec0d-4496-aa51-5f73319d443f" x="5" y="289" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="b7ebb57b-f620-4d3e-9e8c-e2b402e080aa" x="361" y="291" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="8e2c90ad-f721-4306-9e51-85072f1c65ae" x="425" y="290" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="fe542a7b-89de-4d97-bffc-fe6e12a8b019" x="495" y="291" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="2c8c664c-61b5-41b1-afdb-ec1ef05f75db" x="494" y="350" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="f258238e-0fc7-4a60-92f3-d895435a9c48" x="494" y="410" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a9d40180-92e8-48bb-b7ed-2ad6ca0ee3eb" x="493" y="470" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="6b7ce009-db73-4fd2-ae0e-41af4e34b0d4" x="427" y="470" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9bbf94e3-98c1-4942-a9c1-416c3b4ef16e" x="363" y="470" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9a84e1f1-9dad-4008-9968-966725cbc7b9" x="294" y="470" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="69fff54c-d712-4be9-be2a-a5cc6e1f62b0" x="294" y="410" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="21e4165d-764b-41a1-a167-756d7bea941c" x="294" y="350" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="99bf8067-481b-4bed-b6a0-9dc9be7a95d9" x="293" y="290" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="8bb33dba-fca2-4f1d-b21e-6d9ab528c79f" x="360" y="20" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a178b603-c031-4a83-af03-d3a6a9222ee4" x="425" y="20" width="64" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="5853e3f1-ebde-40e8-a9ef-d164b076a1fb" x="492" y="20" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="228f3e87-9a2e-4b06-8bbf-3531a28fff10" x="493" y="80" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="6f7f185a-d451-400f-931d-fb8d0725b639" x="493" y="140" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="02b970f1-0799-4809-9fd6-3fa739795f1c" x="494" y="201" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="b5de328a-0ec7-450a-8fa9-e96f70481f61" x="426" y="201" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="5ea18f70-aeb0-4b4a-b6bc-94f0fdcccfa7" x="359" y="201" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="c4c14c4e-7772-450c-8efb-b4c42cc0500f" x="292" y="201" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="834f3561-a0ae-4623-b7ad-f8714f7e27aa" x="293" y="140" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="29eacd48-7fec-4366-9c84-0010dc96d6a6" x="293" y="80" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="d51760a8-ae4f-41e1-acc7-868164403e01" x="293" y="20" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="655b71f8-6614-4e8e-acdd-226f70f2c94c" x="69" y="20" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="551c3d44-259a-4fd1-b08f-7c506910a7c4" x="134" y="20" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e7b4ca9f-17a6-4ddf-bd2a-aaf1afe60148" x="201" y="20" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="23f657bc-e05a-492c-9372-80dc67e1733a" x="202" y="81" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="461eccf2-4227-4a63-b89e-a44a66bd473f" x="202" y="140" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="b7e00ecb-7b49-45f6-82d9-c5365dadd2e5" x="201" y="201" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="ca3a27c6-37e2-4c08-a4f3-589f7c026dc4" x="137" y="201" width="63" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="db761dbf-e7fd-40eb-aeda-c9a47a434344" x="71" y="201" width="63" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="33493121-0926-4fa1-8540-57d769893be8" x="0" y="201" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9370f98d-c004-4938-af40-31da533abc91" x="1" y="140" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="44e9c5dc-d4e0-4966-8e53-1bda48fe0970" x="1" y="80" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="f224dd62-ba73-410e-9d57-5c8308ab94c3" x="0" y="20" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="267b20f4-27e2-4316-9acb-2389bd9f6fe0" x="70" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e5d44769-f18c-4567-bafc-92adf2f60abb" x="135" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="ec93be80-ef8c-4ae2-b6ff-43bb937c0d30" x="204" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="c0493eb3-24c1-4f0f-9de3-3bbdf3e502ee" x="203" y="620" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a67e156b-7787-4f40-98a1-b6563515c1ba" x="204" y="682" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="d0aba38c-357f-404e-a172-f642c504614a" x="204" y="740" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="09295621-3a98-43b5-821d-41251164e835" x="136" y="739" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e5b33af1-aef4-484c-84ad-56b5c88914a4" x="70" y="740" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a7af9c54-f0cb-41fb-a764-a73be20f15a9" x="3" y="739" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="b1209f9d-2f59-41a6-b6f5-15858397ed0a" x="3" y="682" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e9d51b49-6cf2-4e30-9a65-d959bbad1805" x="3" y="620" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="34bb96c6-1bb4-4ffa-bacb-10d2eb3c7f30" x="2" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a2c04999-f342-4806-88d4-64cd62b05c6d" x="361" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="123350f4-019d-48c1-b863-794c9848831e" x="427" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9a8ff023-e581-4541-a271-e73f23c8c9b8" x="494" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="c8db245e-3c6b-4dbb-a667-328949e55151" x="494" y="621" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="6c337e4c-6059-4557-a4b5-a9a92a774323" x="493" y="680" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a92945fb-2cf6-4d3b-90a5-9ca33757a76d" x="493" y="739" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="d83df601-0d0c-4aec-b5e2-cc22dcc0d908" x="426" y="740" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9f5bd7ce-327b-49f4-95fc-e00672bf6630" x="361" y="740" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="cf49e07f-7768-4dd4-8d0a-a076b0a40796" x="293" y="740" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="1ad44bef-ecf5-4b06-9127-ccc9cdd5d3b5" x="292" y="682" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="3134b7df-f567-4667-a376-ae2517d58335" x="294" y="621" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="1e705560-6954-48cc-a6f8-388060e2bfd8" x="294" y="560" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="b02b6d88-23cc-4880-beba-f5c881d4f0bb" x="-810" y="881" width="69" height="61" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA["Text Field"]]></expression>
+		</element>
+	</title>
+	<detail>
+		<band height="843" splitType="Stretch">
+			<element kind="rectangle" uuid="0d09e44b-b8d5-4614-bb6c-3b60e64fdf7b" mode="Opaque" x="0" y="0" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="rectangle" uuid="b584b568-f253-4808-b51e-2b3905299ff3" mode="Opaque" x="290" y="0" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="rectangle" uuid="21c7f6bd-90b1-4c9b-9019-bffbe0e084e1" mode="Opaque" x="0" y="280" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="rectangle" uuid="03edc504-aa74-42b4-9763-5b0080313c86" mode="Opaque" x="289" y="280" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="rectangle" uuid="c08dae4f-0d3b-47dc-ade7-d987d5bd2cbe" mode="Opaque" x="0" y="550" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="rectangle" uuid="35e59be9-58de-4629-8043-b62507b761bb" mode="Opaque" x="291" y="550" width="270" height="240" backcolor="#FAE29B"/>
+			<element kind="line" uuid="9106591a-babd-40a7-8217-63c0b0b43e3d" x="70" y="0" width="1" height="240"/>
+			<element kind="line" uuid="4dad0ad8-0276-4a5e-a4ae-508c09afa85d" x="200" y="0" width="1" height="240"/>
+			<element kind="line" uuid="6e1e6c59-31de-49b1-800f-21ac04ddc2f4" x="360" y="0" width="1" height="240"/>
+			<element kind="line" uuid="75d94289-d57d-493c-8f85-cffe3e628b11" x="491" y="0" width="1" height="240"/>
+			<element kind="line" uuid="d5f666df-3b92-4331-9bb1-70bb82854d10" x="0" y="59" width="269" height="1"/>
+			<element kind="line" uuid="4db73245-1ada-4d75-b692-eb928efb5179" x="290" y="60" width="268" height="1"/>
+			<element kind="line" uuid="c4b6cf92-8dae-40e8-bbe4-a31e6fdb053e" x="291" y="180" width="268" height="1"/>
+			<element kind="line" uuid="d9670b78-daaf-44e1-872c-c5de5776644d" x="1" y="180" width="267" height="1"/>
+			<element kind="line" uuid="0048a73d-0d41-4be5-9fd3-a74bad9d09b9" x="424" y="0" width="1" height="59"/>
+			<element kind="line" uuid="5fefc69e-ef90-40a9-aab5-925fa5b1b2da" x="490" y="120" width="68" height="1"/>
+			<element kind="line" uuid="437b3edd-e55b-4739-96af-89bc02a0bf62" x="289" y="120" width="72" height="1"/>
+			<element kind="line" uuid="fb097a41-25d0-48c5-86d4-c703a09370b7" x="425" y="180" width="1" height="60"/>
+			<element kind="line" uuid="fd7e115b-3d01-4a43-b60c-1c11d646c2fc" x="200" y="120" width="68" height="1"/>
+			<element kind="line" uuid="7f7b6cb3-b636-4c46-9456-2f598ce465a1" x="132" y="0" width="1" height="59"/>
+			<element kind="line" uuid="4c89e2b1-cf04-4b13-9678-bdf7dab2721e" x="132" y="180" width="1" height="60"/>
+			<element kind="line" uuid="ebb3ef78-a927-4d1a-8a23-0c857e44060d" x="0" y="120" width="71" height="1"/>
+			<element kind="staticText" uuid="e99d4e07-ac7e-45d9-b657-6ea074dbeb01" x="71" y="105" width="139" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Dasamsa[D10]]]></text>
+			</element>
+			<element kind="staticText" uuid="c0ebb256-5933-4751-8b79-f93552eedf91" x="361" y="105" width="128" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Dwadasamsa]]></text>
+			</element>
+			<element kind="staticText" uuid="d518114a-9d11-4fb7-b733-fbbf4056cca1" x="370" y="135" width="110" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Top">
+				<text><![CDATA[[D12]]]></text>
+			</element>
+			<element kind="line" uuid="c532edee-32d0-4e38-ba28-f863acd7e17e" x="70" y="280" width="1" height="240"/>
+			<element kind="line" uuid="a79b0991-d435-4cee-a929-470b27b8120f" x="197" y="280" width="1" height="240"/>
+			<element kind="line" uuid="c2b1136c-b863-4e05-b8f5-49b28a7a37c2" x="358" y="280" width="1" height="240"/>
+			<element kind="line" uuid="2af294b0-d446-47f2-a545-32bec7388185" x="492" y="280" width="1" height="240"/>
+			<element kind="line" uuid="73de9acc-e812-4b82-bebb-77614c50ee0c" x="0" y="340" width="269" height="1"/>
+			<element kind="line" uuid="882686a5-27de-491f-875e-3712ecc31813" x="290" y="341" width="268" height="1"/>
+			<element kind="line" uuid="7e2888f5-e7e2-4c44-bf38-4e01e905e78d" x="289" y="460" width="268" height="1"/>
+			<element kind="line" uuid="e560f7d0-36dc-49c9-a504-4e6ae1f71ca3" x="0" y="460" width="269" height="1"/>
+			<element kind="line" uuid="f3581d7d-19e7-4617-b837-45b70ec0f483" x="289" y="610" width="272" height="1"/>
+			<element kind="line" uuid="5094312b-4ea0-4941-b7b6-e1048e04b3aa" x="0" y="610" width="269" height="1"/>
+			<element kind="line" uuid="7b5ee6ef-9591-4334-bd72-d4519072a78a" x="291" y="730" width="269" height="1"/>
+			<element kind="line" uuid="7e8a6d6d-12e0-4d57-a0ed-b2e2b096317d" x="1" y="730" width="268" height="1"/>
+			<element kind="line" uuid="435c8e94-3873-4e5c-a2c3-3f27fa5be1da" x="492" y="550" width="1" height="240"/>
+			<element kind="line" uuid="bf2dd326-4ed3-4bc5-a17f-a719146c7720" x="358" y="550" width="1" height="240"/>
+			<element kind="line" uuid="d90d23fe-2aad-43fa-a272-df61479edb68" x="197" y="550" width="1" height="240"/>
+			<element kind="line" uuid="d3ae1b5c-f21e-44ea-a9ff-fc36cae042ef" x="70" y="550" width="1" height="240"/>
+			<element kind="line" uuid="00444f16-471d-4296-8548-8fe8d56e785d" x="424" y="280" width="1" height="62"/>
+			<element kind="line" uuid="277bd71b-704e-4e90-ac1e-66c87673ca6a" x="491" y="400" width="68" height="1"/>
+			<element kind="line" uuid="4e2bc511-2612-43ea-b71e-6e6debc4de72" x="289" y="400" width="69" height="1"/>
+			<element kind="line" uuid="46076fd2-6233-4e26-8438-7cf5692ecd9c" x="197" y="400" width="72" height="1"/>
+			<element kind="line" uuid="c8a0b8c3-263d-4998-88a0-69e20be1c69a" x="132" y="460" width="1" height="60"/>
+			<element kind="line" uuid="3fa592fb-ee04-4317-b8ff-cdb49ea67364" x="132" y="281" width="1" height="60"/>
+			<element kind="line" uuid="f658a054-cb56-4e26-8464-4f88b6c25ed4" x="0" y="400" width="69" height="1"/>
+			<element kind="staticText" uuid="e63c2f18-ab06-440f-bdf3-4a0fb74292da" x="50" y="390" width="170" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Shadasamsa[D16]]]></text>
+			</element>
+			<element kind="staticText" uuid="167e00a5-8808-475a-b28f-a6b19b4e2425" x="361" y="385" width="116" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Vimsamsa]]></text>
+			</element>
+			<element kind="staticText" uuid="d28af66f-b2ce-4611-a77d-0c83ea1568ec" x="450" y="385" width="55" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<text><![CDATA[[D20]]]></text>
+			</element>
+			<element kind="line" uuid="1097294f-f5af-4c26-99c7-e930524d4c17" x="493" y="670" width="68" height="1"/>
+			<element kind="line" uuid="99220d61-70b2-4642-9758-e15d814869b9" x="424" y="550" width="1" height="60"/>
+			<element kind="line" uuid="c8eff507-3689-4f82-b26c-7c0ce0b7c3b5" x="424" y="731" width="1" height="59"/>
+			<element kind="line" uuid="fc176678-93ae-418d-9d81-443f2df8b768" x="290" y="670" width="68" height="1"/>
+			<element kind="line" uuid="8285f553-5221-4412-a885-b2a43f6abe2e" x="197" y="670" width="72" height="1"/>
+			<element kind="line" uuid="6af6c851-2900-4a6a-b79d-3ce6b101d0d0" x="133" y="550" width="1" height="60"/>
+			<element kind="line" uuid="af6a72f9-210b-4650-8e25-97f7ca909c87" x="1" y="670" width="69" height="1"/>
+			<element kind="line" uuid="dfad283a-4945-4e6c-b52e-c481a68c6a40" x="132" y="730" width="1" height="60"/>
+			<element kind="staticText" uuid="8730bbe5-6f8e-4bcd-9df5-42edbdb2366d" x="50" y="660" width="170" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Chathurvimsamsa]]></text>
+			</element>
+			<element kind="staticText" uuid="e7aa04f2-34b9-4b39-b087-ce69d60a7074" x="110" y="690" width="59" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[[D24]]]></text>
+			</element>
+			<element kind="staticText" uuid="39e621f6-48dc-46c0-93aa-c4b345c9b3e2" x="361" y="660" width="132" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Bhamsa[D27]]]></text>
+			</element>
+			<element kind="textField" uuid="b69340a7-7326-4200-9bf8-b0148a0ed075" x="361" y="0" width="63" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="89f0abf6-c44f-4150-9a0d-9423321572ea" x="427" y="0" width="63" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="a5fe2a63-8da9-4184-ab94-0eb6bea3cf5d" x="493" y="61" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="5b73d45d-ce34-46a3-9ccd-99f19559c9db" x="494" y="121" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="389a2adf-819c-4ac8-a7d4-f3112c5e776b" x="494" y="181" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="659e2aae-1439-4ab8-bd0d-48abb728009d" x="426" y="181" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="48fd13c2-4ce6-4350-9ec9-a8f23cc19e85" x="362" y="180" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="f1d1a01a-b252-4299-9dd5-019279e1fad3" x="293" y="180" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="7cddafb6-9e46-47d0-a47a-235c050be013" x="293" y="118" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="cd8808ed-9d9c-45e0-be09-5c7260bd9962" x="293" y="61" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="12f1642d-8d87-45a5-a47a-9f002f042e90" x="293" y="0" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="3f454956-9ff2-49cd-8960-c99ed67ddc5f" x="493" y="-1" width="66" height="59" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="cafa989a-699f-45f5-87b5-ae2aab8d4bf8" x="68" y="280" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="a84310dc-ca09-445c-8849-447e2b8fb113" x="131" y="280" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="e8fd5bd5-671a-44b6-b9ac-2f70da5d2281" x="201" y="281" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="344ba12d-14b6-405e-b9b8-f6c6cd466ed6" x="200" y="340" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="aa1276f9-1e1f-4ff5-967a-e6a7fb1c9fed" x="201" y="400" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6272ff64-96f3-4061-b548-f9fa030dafd8" x="200" y="460" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="d267cc9d-c966-44b6-886d-25d925746b6e" x="131" y="461" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="907ccc61-d98f-4bde-a769-03ac53d76d1a" x="68" y="460" width="63" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="e380ddf7-5201-44b2-9ba8-44e256aa971e" x="2" y="460" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="da0d6c59-1352-413f-bd78-a9ed1bae7226" x="2" y="400" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="fc319939-433e-4cf8-bf6b-64219195c6c6" x="2" y="340" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="e60a973f-718e-4183-86ea-1fa5bb102c99" x="2" y="282" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="0db0a7dc-0ddf-4c44-9af4-00382a03dbdf" x="290" y="280" width="67" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="45051e29-92a8-4eb7-ad83-6c39a8a232f8" x="359" y="280" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6e61cf4d-a3b0-4b2e-8fbe-320ab3a0227f" x="425" y="280" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="8bb466ea-08f2-4dd9-9e76-a39aacb019e7" x="493" y="280" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="fdffe623-5b1d-47d4-900d-eb438bf6a598" x="492" y="342" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="a32cb67e-47cd-45b4-9a5c-e512aeba9909" x="492" y="400" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="130eed1e-6b3d-4f5e-9000-0bbf5e1b212a" x="493" y="460" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="3da00a90-c677-413b-8d66-86f558365987" x="291" y="461" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="18862b64-4b1a-42bc-9548-3627fa2d7a8c" x="292" y="400" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="0d712502-85b0-40f8-9a0b-26c600642a75" x="290" y="342" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="line" uuid="b0157df7-4ff5-46eb-b941-a686d7973bdd" x="426" y="460" width="1" height="60"/>
+			<element kind="textField" uuid="e5a3f972-dfa2-4150-acc8-c9d63180b526" x="360" y="460" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9dab7d69-5dff-4bb7-a385-ae941f155ceb" x="428" y="460" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="0867d37c-cda0-4bcc-a193-993dcba00e24" x="0" y="0" width="72" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="59e013f6-84b3-452f-a5ce-cbfd1f461fff" x="72" y="2" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="b7285e6a-2ce3-4991-9557-e3e5d66d98c6" x="136" y="0" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="578868b2-cdac-4262-8080-5a477f347a94" x="204" y="-1" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="d435e009-10e2-45a2-8dbd-0cfd92906313" x="204" y="63" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="b898b768-8833-4cdc-afca-2c978bd600cb" x="204" y="121" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="23f292eb-d872-4b23-9b7e-f64ca1cf12e4" x="203" y="180" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="1ecab70e-989a-4fa7-90c7-bc7249edaa46" x="136" y="180" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6742ebb5-2421-46dd-95f9-89d0b1df64c2" x="73" y="180" width="62" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="8b93e9cf-7334-4a00-bfaf-e339687c2e42" x="2" y="121" width="67" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6afd3cd3-3248-4353-913c-c0401523a36c" x="2" y="57" width="68" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6e05a0e3-d2d1-42e0-bc4c-64c08e2d1f21" x="3" y="181" width="67" height="58" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="b9aba7a0-74e1-49b6-8603-3ff21dd0d1ac" x="3" y="550" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="e480b8f7-65f1-41f1-a516-ebaa1d40af0f" x="2" y="610" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="4e3c759e-33f0-41c2-a5f7-cd7d8e71151b" x="1" y="730" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="337dce18-f729-4904-bc42-020b634d4578" x="199" y="730" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="4254fa68-272a-41fd-8b1d-f2cb6bda7820" x="199" y="670" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9f651dd8-b391-4c27-80c4-117dc428a1a5" x="199" y="610" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9c1c4d3d-a502-4867-be20-e70145283eda" x="201" y="550" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="2fb11d11-344a-4fde-9992-3aee7ebaff36" x="133" y="730" width="64" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="aba05abd-3017-4cff-a13f-58bcd050d982" x="69" y="729" width="61" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="24a3dae0-55a4-49eb-a85a-a9c3f6090e4e" x="69" y="550" width="61" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="5be0c319-a9b0-4fce-a83f-25893aa0a3cf" x="134" y="550" width="61" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="c445004b-4003-4375-9820-26dd241979ce" x="0" y="670" width="69" height="61" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="b7765700-9fd5-4d00-94dc-a5e027e06751" x="293" y="550" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9e261737-f6e0-447d-9e61-eb5d6ea4703c" x="360" y="551" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="6ade8beb-b56d-42ed-bca1-b2ccaff765ce" x="426" y="550" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="70537c78-d21a-46c0-9549-e76fff7e6cc4" x="491" y="550" width="70" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9023cd62-5301-44f3-b2d3-d3fff963f7e7" x="494" y="610" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="9fc45da3-18a4-4313-a914-8e8e4b0f9c5d" x="494" y="670" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="b3e2e9b3-d966-40b7-b0c1-3e3f611cebd0" x="494" y="730" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="924eb132-080f-45c3-b9cb-21278f179936" x="424" y="729" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="0e50ef1b-3474-47c1-afa8-e381f3fe8eb4" x="358" y="729" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="df972069-2f14-4069-89df-b914fbe316c4" x="293" y="730" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="c613da97-d883-4765-afb7-afe61c2701b8" x="293" y="670" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+			<element kind="textField" uuid="f96ea5c7-9072-4657-be4a-f92e4c107b0e" x="294" y="610" width="66" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		</band>
+	</detail>
+	<summary height="577" splitType="Stretch">
+		<element kind="rectangle" uuid="b4753784-b842-4e6d-be90-5cd10aacab25" mode="Opaque" x="1" y="0" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="41bb056b-0dd7-45e3-8400-b020108e1f6e" mode="Opaque" x="290" y="0" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="bf9cdea2-bd22-4338-96ad-23ec7f6794fb" mode="Opaque" x="0" y="270" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="rectangle" uuid="7dd6829a-8fd5-4684-a849-3bd782e5f094" mode="Opaque" x="290" y="270" width="270" height="240" backcolor="#FAE29B"/>
+		<element kind="line" uuid="88b000f5-c82e-487b-93e9-45783356478c" x="493" y="0" width="1" height="240"/>
+		<element kind="line" uuid="0bff9741-c34f-45b1-845f-58eabaf1685c" x="358" y="0" width="1" height="240"/>
+		<element kind="line" uuid="94f3cda5-49d0-45a5-8240-c26f6ee86052" x="197" y="0" width="1" height="240"/>
+		<element kind="line" uuid="aacf9504-9c14-4cb1-befc-910402a6d3d1" x="69" y="0" width="1" height="240"/>
+		<element kind="line" uuid="81910833-9325-49f2-844a-2dd882d3354a" x="289" y="60" width="269" height="1"/>
+		<element kind="line" uuid="f2d0db20-08a0-4eb4-b9f9-a058e1943c74" x="291" y="180" width="269" height="1"/>
+		<element kind="line" uuid="4ade59be-043d-42c0-a4de-aeee9d47dfea" x="0" y="60" width="269" height="1"/>
+		<element kind="line" uuid="b27bda1c-5240-4021-9e79-3a93a9e8c7bc" x="0" y="180" width="269" height="1"/>
+		<element kind="line" uuid="adc217e7-7616-44b8-85e8-6c138aa5382d" x="494" y="120" width="65" height="1"/>
+		<element kind="line" uuid="733c0401-2aed-4c4b-be9b-316d85166392" x="291" y="121" width="67" height="1"/>
+		<element kind="line" uuid="b16aaeab-d0f0-45e6-8ecc-5b875b124c96" x="424" y="0" width="1" height="60"/>
+		<element kind="line" uuid="bf030570-203f-4801-9dd6-d6169f6a49d7" x="424" y="179" width="1" height="60"/>
+		<element kind="line" uuid="7ddf6780-6fc8-41d9-b2c8-be5d14be6d91" x="197" y="120" width="72" height="1"/>
+		<element kind="line" uuid="4ad6962f-19ae-4b4d-9ec5-d074baabd34f" x="132" y="0" width="1" height="61"/>
+		<element kind="line" uuid="2e680511-5d63-41d5-af2e-624bccea10b0" x="0" y="120" width="68" height="1"/>
+		<element kind="line" uuid="b58e2b3c-cbc7-457a-b040-8a4a1d376897" x="132" y="180" width="1" height="60"/>
+		<element kind="line" uuid="1ead4b83-4b5b-4104-bdc5-152123961f83" x="494" y="270" width="1" height="240"/>
+		<element kind="line" uuid="60f7434b-a35d-40f3-b6ac-1a7b79d58d3e" x="358" y="270" width="1" height="240"/>
+		<element kind="line" uuid="d0490f01-6d6f-4a25-b781-e2f33dda967e" x="195" y="270" width="1" height="240"/>
+		<element kind="line" uuid="447cde9a-c3fc-4ef4-b8e4-d77a3a1cbaf7" x="71" y="270" width="1" height="240"/>
+		<element kind="line" uuid="2e933e24-aa9c-4f27-ac1f-6ca1448175a7" x="291" y="330" width="269" height="1"/>
+		<element kind="line" uuid="17a6a1dc-5ff5-4ed4-94e3-cd86b6404eaa" x="291" y="450" width="269" height="1"/>
+		<element kind="line" uuid="1cb2554e-a00d-45f8-8b08-39f0b645a1b6" x="1" y="330" width="269" height="1"/>
+		<element kind="line" uuid="d71701e0-46f0-4f12-93f3-5d541482d8b3" x="0" y="450" width="269" height="1"/>
+		<element kind="line" uuid="0d266b12-7f83-4ca1-b758-212e133ab0ed" x="424" y="270" width="1" height="60"/>
+		<element kind="line" uuid="f2b4b2e1-98dd-4132-9344-6468f82d1560" x="494" y="390" width="65" height="1"/>
+		<element kind="line" uuid="c86144b3-0f47-4993-9ab5-64f70741e96d" x="426" y="450" width="1" height="60"/>
+		<element kind="line" uuid="6cb10b35-831c-4924-b37f-7ba11fbdf84e" x="290" y="390" width="68" height="1"/>
+		<element kind="line" uuid="5350908d-dd85-457b-868d-b6708b2550e8" x="195" y="390" width="76" height="1"/>
+		<element kind="line" uuid="51b6ecf3-8dea-4942-beac-799a1f6d3c7e" x="131" y="270" width="1" height="60"/>
+		<element kind="line" uuid="399acb71-1e43-4313-95ce-d0465669aa6c" x="131" y="451" width="1" height="59"/>
+		<element kind="line" uuid="4e8af6b4-a85e-4502-8180-2b6971e65588" x="0" y="390" width="71" height="1"/>
+		<element kind="staticText" uuid="814f95dd-daf1-48e3-9dd5-2fe31ab1da03" x="60" y="380" width="142" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Akshavedamsa]]></text>
+		</element>
+		<element kind="staticText" uuid="03b34baf-fbf3-454b-a258-9be668229d8f" x="64" y="410" width="142" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Top">
+			<text><![CDATA[[D45]]]></text>
+		</element>
+		<element kind="staticText" uuid="d6a5286c-6482-4ece-8f68-b878904f098f" x="359" y="370" width="142" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Shashtiamsa]]></text>
+		</element>
+		<element kind="staticText" uuid="fa62ae52-7b77-4278-9e07-eacd5229ad76" x="363" y="400" width="86" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Top">
+			<text><![CDATA[[D60]]]></text>
+		</element>
+		<element kind="staticText" uuid="9a439e8c-f155-4152-8831-61245ff1dabe" x="64" y="105" width="170" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+			<text><![CDATA[Trimsamsa[D30]]]></text>
+		</element>
+		<element kind="staticText" uuid="71af95a9-305c-4f45-a807-2f92194fd29a" x="358" y="110" width="130" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Khavedamsa]]></text>
+		</element>
+		<element kind="staticText" uuid="733cf00b-afe2-481d-a08f-20066d7f7b15" x="365" y="140" width="130" height="30" forecolor="#1F0D61" fontSize="19.0" bold="true" hTextAlign="Center" vTextAlign="Top">
+			<text><![CDATA[[D40]]]></text>
+		</element>
+		<element kind="textField" uuid="0c348334-d615-45b5-b6ae-de7e8abd1fb3" x="2" y="0" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="640f0c7a-f119-4d80-977c-e2382af3e63a" x="1" y="60" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="2b5ed05b-9b05-4527-be33-0237e88ac0b5" x="2" y="122" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e4a79af3-57a7-485a-bb70-a645810e53dc" x="3" y="180" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="be8fffc8-1caf-457f-81bb-2ffb226dac81" x="199" y="180" width="68" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="e9faa2d4-5861-4b95-b4a8-b32caab016e3" x="69" y="182" width="61" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="fdce7713-1684-4637-a38b-65039ee20768" x="132" y="179" width="61" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="8a69fd95-796b-4d77-993f-13c7db9aa4b3" x="199" y="120" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="07b733f7-2959-4afa-ba0e-ee0a20f8d500" x="199" y="62" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="646593dc-c093-46f1-9d57-d0c3c5ef23d3" x="200" y="0" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="55cda986-13ed-4178-a8e2-4a8085bead72" x="133" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="70fb8f6d-4b08-4332-b1b2-07dab91969ce" x="70" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="651e411a-e92c-454b-8264-0bb54ce13e44" x="361" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="878c2b3f-8560-4759-be61-a9c9cfdd748f" x="427" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="2d81a134-72ed-42af-8226-a8b7a343d826" x="496" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="f69a6f23-1637-4ab2-8345-74f05e1f22a0" x="496" y="60" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="abd633c5-17fd-4fed-bae8-b7299cdebe2e" x="493" y="120" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="7c574ea1-f99d-4c7d-840c-7df570c9772e" x="496" y="180" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="96db7615-c217-4d57-9760-a655eab19447" x="428" y="182" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="821597ce-6d1c-458f-8ecb-627261ee574a" x="362" y="180" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a9f7c144-f8fa-4df2-97e6-e7b2052e84d3" x="294" y="180" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="1680c894-cc60-44bd-b843-c849842d25a3" x="293" y="0" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="f5200e14-6051-46db-93f0-b191e06f1697" x="293" y="60" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="208e70a9-fd9a-4058-8bf2-e6f85638ef12" x="294" y="122" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="7410a819-7a35-4500-a10f-f26f1d4d36e2" x="0" y="270" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="54f37b77-84db-4d18-8d3b-7f15d9100441" x="2" y="330" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a46620b9-21ca-4363-b634-aabc57045e89" x="1" y="390" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="6239bd64-7c54-47e7-b4a0-a69fafab09a6" x="3" y="450" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="d84170d9-25e2-4a55-af02-0544eb3047b2" x="196" y="450" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="df45d6ea-5f65-4ab1-8479-dad610633de3" x="133" y="450" width="62" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="fc87046b-4d6e-4be1-a37f-5d6a065c6fda" x="70" y="450" width="60" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="5b3353da-56fc-40b3-8ef8-641d0ea11d33" x="199" y="390" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="1acc8c18-5be9-4bc9-ab22-a5675fe8dbf7" x="196" y="330" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="665646ec-0ddb-4b46-98fa-aa5bca48f67d" x="199" y="270" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="8a578421-3a4a-43d9-b5c2-3a655d39bb07" x="73" y="270" width="57" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="4c59b002-4241-4b3b-926e-faa785c5a8b3" x="134" y="270" width="57" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="aac5ed57-ddd0-46ae-98a1-2e5fb29130e3" x="292" y="271" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="abd801f0-f531-4f4a-9cad-dd5261ddf4fc" x="291" y="330" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="8cf67b2a-aa89-4410-935a-23e0d23e058d" x="291" y="390" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="5619ded5-4f7c-4b7c-980b-9fc7411321b0" x="290" y="450" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="650cf04b-0fd3-4e22-bfb3-0f3e997a43d2" x="357" y="450" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="32e3c4e1-f167-4496-8383-fc8c99db4913" x="428" y="450" width="69" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="14b9000d-54de-458e-a1bf-4c0809c238f9" x="494" y="450" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="ae5fa8ab-7b80-406a-90fa-9ba629997725" x="495" y="390" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="5e951ba2-1e41-40e0-aeb4-7d8687e5483c" x="497" y="330" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="9eebe84b-b87f-475d-810a-df6ef5372c56" x="495" y="271" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="a8adf9ad-ad01-4fcb-9cd7-49b49f9807f7" x="427" y="270" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+		<element kind="textField" uuid="aab6c6ad-b6ac-4a78-89f3-f5d582854c6c" x="356" y="270" width="65" height="60" fontSize="16.0" hTextAlign="Center" vTextAlign="Middle"/>
+	</summary>
+</jasperReport>

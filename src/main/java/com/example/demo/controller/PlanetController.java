@@ -24,6 +24,7 @@ import reactor.netty.http.server.HttpServerRequest;
 import java.io.*;
 import java.util.*;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @Slf4j
 public class PlanetController {
@@ -39,7 +40,7 @@ public class PlanetController {
 
     @RequestMapping(value = UrlConstants.PLANET_URL, method = {RequestMethod.GET, RequestMethod.POST})
     public ResponseEntity<byte[]> generatePlanetReport(HttpServerRequest request,
-            @Valid @RequestBody PlanetRequest planetRequest) throws JRException, IOException {
+                                                       @Valid @RequestBody PlanetRequest planetRequest) throws JRException, IOException {
 
         log.info("Planet Request: {}", planetRequest);
         // Create PlanetsConfig
@@ -73,6 +74,9 @@ public class PlanetController {
         if (planetResponse == null) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("failed".getBytes());
         }
+
+        // Print JSON format in console
+        System.out.println("JSON Response:\n" + gson.toJson(planetResponse));
 
         log.info("Planet Response Data:");
         // Load and compile the JRXML file

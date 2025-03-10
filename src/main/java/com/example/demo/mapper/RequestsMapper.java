@@ -1,6 +1,8 @@
 package com.example.demo.mapper;
 
+import com.example.demo.entity.DChartRequest;
 import com.example.demo.entity.PlanetRequest;
+import com.example.demo.model.request.DChartDTO;
 import com.example.demo.model.request.PlanetsDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -16,10 +18,15 @@ public interface RequestsMapper {
     @Mapping(target = "date", source = "dob", qualifiedByName = "dateOfBirthForDate")
     PlanetsDTO getPlanetDTOData(PlanetRequest request);
 
+    @Mapping(target = "year", source = "dob", qualifiedByName = "dateOfBirthForYear")
+    @Mapping(target = "month", source = "dob", qualifiedByName = "dateOfBirthForMonth")
+    @Mapping(target = "date", source = "dob", qualifiedByName = "dateOfBirthForDate")
+    DChartDTO getDChartRequest(DChartRequest request);
+
     @Named("dateOfBirthForYear")
     default Integer dateOfBirthForYear(String dob) {
         String[] dobParts = dob.split("-");
-        return Integer.parseInt(dobParts[0]);
+        return Integer.parseInt(dobParts[2]);
     }
     @Named("dateOfBirthForMonth")
     default Integer dateOfBirthForMonth(String dob) {
@@ -29,6 +36,6 @@ public interface RequestsMapper {
     @Named("dateOfBirthForDate")
     default Integer dateOfBirthForDate(String dob) {
         String[] dobParts = dob.split("-");
-        return Integer.parseInt(dobParts[2]);
+        return Integer.parseInt(dobParts[0]);
     }
 }
